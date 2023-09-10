@@ -1,0 +1,26 @@
+:root {
+    --red: #e60000;
+    --white: #ffffff;
+    --black: #000;
+    --gray: #7b7676;
+}
+
+body {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn-gray {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.nav-shadow{
+    box-shadow: 0px 4px 20px #e3e0e0;
+}
